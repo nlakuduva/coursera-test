@@ -1,0 +1,72 @@
+body{
+	align-content: center;
+	font-family: Times, serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 175%;
+}
+
+section {
+	background-color: gray;
+	border: solid;
+	border-width: 1px;
+	float: left;
+	margin: 5px;
+}
+
+.foodHeader{
+	position: relative;
+  	top: 0px;
+  	float: right;
+  	width: 100px;
+  	text-align: center;
+  	border: solid;
+  	border-width: 1px;
+  	box-sizing: border-box;
+  	margin: 0px;
+  	font-size: 125%;
+}
+
+#divChicken{
+	background-color: pink;
+
+}
+
+#divBeef{
+	background-color: cyan;
+}
+
+#divSushi{
+	background-color: green;
+}
+
+p {
+	clear: right;
+	padding-top: 5px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  section {
+    width: 32%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	#section1, #section2 {
+		width: 47%;
+	}
+
+	#section3 {
+		width: 96%;
+	}
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+
+}
+
