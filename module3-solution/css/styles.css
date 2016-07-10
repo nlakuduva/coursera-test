@@ -1,0 +1,62 @@
+body{
+	align-content: center;
+	font-family: Times, serif;
+}
+
+#header-nav {
+  background-color: #CCCACA;
+  border-radius: 0;
+  border: 0;
+  border-bottom: solid;
+  border-color: grey;
+}
+
+.navbar{
+	margin-bottom: 0px;
+}
+
+
+.navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 175%;
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: -10px;
+}
+
+section{
+	background-color: #CCCACA;
+	margin-bottom: 20px;
+}
+
+section > div{
+	font-weight: bold;
+	padding: 5px;
+}
+
+section p {
+	padding: 10px;
+	padding-top: 0px;
+}
+
+li a, li a:hover, li a:focus{
+	text-decoration: none;
+	color: black !important;
+	background-color: white !important;
+}
+
+li{
+	border-bottom: solid;
+	border-color: grey;
+	color: black;
+	background-color: white;
+}
+
+#collapsable-nav{
+	padding: 0px;
+}
