@@ -1,3 +1,4 @@
+
 $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
   // Same as document.querySelector("#navbarToggle").addEventListener("blur",...
@@ -82,8 +83,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
 // On first load, show home view
 showLoading("#main-content");
 $ajaxUtils.sendGetRequest(
-  allCategoriesUrl, 
-  buildAndShowHomeHTML, // ***** <---- TODO: STEP 1: Substitute [...] ******
+  allCategoriesUrl, buildAndShowHomeHTML,
+ // [...], // ***** <---- TODO: STEP 1: Substitute [...] ******
   true); // Explicitely setting the flag to get JSON from server processed into an object literal
 });
 // *** finish **
@@ -124,8 +125,7 @@ function buildAndShowHomeHTML (categories) {
       // of how to do that. 
       // ....
       insertHtml("#main-content", homeHtmlToInsertIntoMainPage);
-
-
+      
     },
     false); // False here because we are getting just regular HTML from the server, so no need to process JSON.
 }
@@ -344,4 +344,3 @@ function insertItemPortionName(html,
 global.$dc = dc;
 
 })(window);
-
