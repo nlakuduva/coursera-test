@@ -110,6 +110,7 @@ function buildAndShowHomeHTML (categories) {
 
        
       chosenCategoryShortName = JSON.stringify(chosenCategoryShortName.short_name);
+      console.log("second " + chosenCategoryShortName);
 
       chosenCategoryShortName = chosenCategoryShortName.replace(/"/g,"\'");
       console.log(chosenCategoryShortName);
